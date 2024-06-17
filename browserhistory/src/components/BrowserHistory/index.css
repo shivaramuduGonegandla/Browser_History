@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8fafc;
+  }
+  
+  .appContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navBar {
+    background-color: #3367d6;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .searchBox {
+    background-color: #2850a7;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #6697ff;
+  }
+  
+  .searchBox input {
+    background-color: transparent;
+    color: #ececec;
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .historyListContainer {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .historyItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .domainLogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .itemDetails {
+    flex-grow: 1;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 14px;
+    color: #475569;
+  }
+  
+  .domainUrl {
+    margin: 0;
+    color: #64748b;
+  }
+  
+  .timeDeleteContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .timeAccessed {
+    color: #999;
+    margin-right: 10px;
+  }
+  
+  .deleteButton {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .emptyView {
+    text-align: center;
+    color: #475569;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
